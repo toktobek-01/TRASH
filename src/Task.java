@@ -1,3 +1,4 @@
+
 public class Task {
     String description;
     boolean isDone;
@@ -33,21 +34,7 @@ public class Task {
 //a method printTitle() that prints:
       //  "Title: <the title>"
 
-public class Book{
-    String title;
 
-    public Book(String title) {
-        this.title = title;
-    }
 
-    public String title () {
-        return "Title:" + title;
-    }
-
-    public static void main(String[] args) {
-        Book b = new Book("Boobby Hobbit");
-        System.out.println(b.getTitleInfo());
-    }
-}
 
 
