@@ -1,21 +1,17 @@
 public class MainCar {
     public static void main(String[] args) {
-        Cars myCar = new Car();
-        myCar.start();
-        myCar.stop();
-
-        System.out.println();
-
-        Cars myMotor = new Motorcycle();
-        myMotor.start();
-        myMotor.fuelType();
-        myMotor.stop();
-
-        System.out.println();
-
-        Cars myBus = new Bus();
-        myBus.start();
-        myBus.stop();
-        myBus.fuelType();
+        Cars[] garage = {
+                new Car(),
+                new Motorcycle(),
+                new Bus(),
+                new ElectricCar()
+        };
+        for (Cars vehicle : garage) {
+            vehicle.start();
+            vehicle.fuelType();
+            vehicle.stop();
+            System.out.println();
+        }
     }
+
 }
