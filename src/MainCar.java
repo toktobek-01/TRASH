@@ -17,5 +17,12 @@ public class MainCar {
         myBus.start();
         myBus.stop();
         myBus.fuelType();
+
+        System.out.println();
+
+        Cars myElectricCar = new ElectricCar();
+        myElectricCar.start();
+        myElectricCar.stop();
+        myElectricCar.fuelType();
     }
 }
