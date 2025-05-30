@@ -14,4 +14,7 @@ public abstract class Account {
         return amount;
 
     }
+
+    public void withrdaw(int i) {
+    }
 }
