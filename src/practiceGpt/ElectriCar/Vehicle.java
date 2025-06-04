@@ -1,10 +1,11 @@
 package practiceGpt.ElectriCar;
 
 public abstract class Vehicle {
-    abstract void start();
-    abstract void stop();
-    abstract void color();
-    abstract void power();
+   public abstract void start();
+    public abstract void stop();
+    public abstract void color();
+    public abstract void power();
+
 
 
     void info() {

@@ -2,12 +2,12 @@ package practiceGpt.ElectriCar;
 
 public class ElectricCar extends Vehicle implements Electric {
     @Override
-    void start() {
+    public void start() {
         System.out.println("Electric car starts silently");
     }
 
     @Override
-    void stop() {
+    public void stop() {
         System.out.println("Electric car stops silently");
     }
 
@@ -17,12 +17,12 @@ public class ElectricCar extends Vehicle implements Electric {
     }
 
     @Override
-    void color() {
+    public void color() {
         System.out.println("This car is red.");
     }
 
     @Override
-    void power() {
+    public void power() {
         System.out.println("This car has 450 horsepower in it");
     }
 }
