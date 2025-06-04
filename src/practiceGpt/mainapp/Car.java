@@ -9,6 +9,7 @@ public class Car extends Vehicle {
         System.out.println("Vehicle type:" + type);
     }
 
+
     private void internalCheck() {
         System.out.println("Cannot access internalCheck");
     }
