@@ -10,7 +10,8 @@ public class Main {
         System.out.println("1. Car.");
         System.out.println("2. Truck.");
         System.out.println("3. Train.");
-        System.out.println("Enter your choice: (1-3):");
+        System.out.println("4. Jet,");
+        System.out.println("Enter your choice: (1-4):");
 
         int choice = scanner.nextInt();
         VehicleActions vehicle;
@@ -25,6 +26,8 @@ public class Main {
             case 3:
                 vehicle = new Train();
                 break;
+            case 4:
+                vehicle = new Jet();
             default:
                 System.out.println("Invalid choice.");
                             return;
