@@ -14,4 +14,12 @@ public class UserVehicles {
     public void showInfo() {
         System.out.println("Your " + name + " runs on " + fuelType + ".");
     }
+
+    public void start() {
+        System.out.println(name + " is starting ...");
+    }
+
+    public void stop() {
+        System.out.println(name + " has stopped.");
+    }
 }

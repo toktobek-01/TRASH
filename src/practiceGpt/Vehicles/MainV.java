@@ -17,6 +17,8 @@ public class MainV {
 
         System.out.println();
         vehicles.showInfo();
+        vehicles.start();
+        vehicles.stop();
 
         scanner.close();
     }
